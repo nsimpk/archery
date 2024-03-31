@@ -24,3 +24,35 @@
     grid-column: 4/4;
     grid-row: 1/1;
 }
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+.span_4_of_4 {
+	width: 100%;
+}
+.span_3_of_4 {
+	width: 74.6%;
+}
+.span_2_of_4 {
+	width: 49.2%;
+}
+.span_1_of_4 {
+	width: 23.8%;
+}
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
