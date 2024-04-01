@@ -56,3 +56,7 @@
     height: 1px;
     overflow: hidden;
 }
+nav a {
+    padding: .5rem;
+    margin: .5rem;
+}
